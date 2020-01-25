@@ -14,6 +14,7 @@
 		<Item Name="Client Command Queue.ctl" Type="VI" URL="../Client Command Queue.ctl"/>
 		<Item Name="Client Command.ctl" Type="VI" URL="../Client Command.ctl"/>
 		<Item Name="Listener Notifier.ctl" Type="VI" URL="../Listener Notifier.ctl"/>
+		<Item Name="Listener Result.ctl" Type="VI" URL="../Listener Result.ctl"/>
 		<Item Name="Listener Status.ctl" Type="VI" URL="../Listener Status.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
