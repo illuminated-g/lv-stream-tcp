@@ -1,5 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="20006002">
+	<Property Name="NI.Lib.Description" Type="Str">This class provides multi-client chat. To start, run Public/Server Main.vi
+
+The UI will display the number of currently connected clients and what the most recent message was that sent. To close, click the X in the upper right of the server UI.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!"A!A!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)]!!!*Q(C=\&gt;1^&lt;NN!%)&lt;BTU%+JV3B0F;8?K[AQCZ6[!JT";65:&gt;"(G#PI#DJ"A%&amp;OI#PQ#P3\SZ%DO*!&lt;'T!1,\5U_?X@YS6"K:&gt;&lt;[&lt;OGN]LS;JH&lt;WXH_,&gt;O);&lt;[@TOXHO_JSPL^M\Q00Q:8RS^&gt;4P6J`OLD]VX\&amp;L[`S6@\PMH`L%`$RB"OV$R%VK5&amp;VKKEN036ZEC&gt;ZEC&gt;ZEA&gt;ZE!&gt;ZE!&gt;ZE$OZETOZETOZEROZE2OZE2OZE@?$8/1C&amp;TGE:0&amp;EI743:)+E-R1FJ]34?"*0YO&amp;7C3@R**\%EXDIIM34?"*0YEE]$&amp;0C34S**`%E(K&lt;KEOQ(/:\%Q`1+0)%H]!3?Q-/3#DQ")&amp;AMG$C9");#RO!C]!3?Q-/F!E`A#4S"*`$1L-!4?!*0Y!E]$/G\%FX4$H)]4#0(YXA=D_.R0%QNR_.Y()`D=4QM*]@D?"S%M[!T/11ZAZQ/TIXD=4T]E?.R0)\(]4A?GPI4]LYT4&gt;-/=DS'R`!9(M.D?*B#BM@Q'"\$9XC96I&lt;(]"A?QW.Y7%K'R`!9(A.C,-LS-C9T"BK&gt;D-$Q]/NPC`7H&amp;&amp;VC`:$KZ67^F+K84@53K6Y/V5.805T61V*NPGJ46:OFWA460[&gt;#KT#K263$7U?.H%`5)`6!(;A\[J;[JK[ICT&lt;UH4O/Y[D4[;4D];D$Y;"B',4&lt;\&lt;4&gt;&lt;L6?L\6;L&lt;29,&amp;Y_!T]Z8DY)]X&gt;JT`8D`&lt;BZ?PCR'8\`X4T&gt;`\J\@0BTNZ`\@(4Z".^'@&gt;0F/OT2-QHQ)&amp;Y!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536895490</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.2</Property>
@@ -55,7 +59,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Ctor.vi" Type="VI" URL="../Ctor.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!"A!A!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$L!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#Z!=!!?!!!6%U.I981A5W6S&gt;G6S,GRW9WRB=X-!$U.I981A5W6S&gt;G6S)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!%!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!!!%!"Q!!!!!</Property>
