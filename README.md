@@ -1,2 +1,4 @@
 # lv-stream-tcp
-TCP client/server implementation built on top of lv-stream.
+TCP client/server implementation built on top of [lv-stream](https://github.com/negentropicdev/lv-stream). Clone this repository as a sibling to the lv-stream repository.
+
+This library is used to perform multi-threaded client <-> server TCP communication and since it's written in pure LabVIEW it should work on all targets. Except for initial startup and shutting down there is no polling behavior to keep processor utilization as low as possible. Callbacks via VI references are used to provide notification of connections and disconnections. While it would be possible to implement this with Interfaces in LabVIEW 2020, it was desired to keep this library compatible with older labview versions.
