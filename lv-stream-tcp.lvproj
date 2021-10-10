@@ -10,15 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Examples" Type="Folder">
-			<Item Name="Chat" Type="Folder">
-				<Item Name="Chat Client.lvclass" Type="LVClass" URL="../Examples/Chat Client/Chat Client.lvclass"/>
-				<Item Name="Chat Server.lvclass" Type="LVClass" URL="../Examples/Chat Server/Chat Server.lvclass"/>
-			</Item>
-			<Item Name="Raw Local" Type="Folder">
-				<Item Name="Simple Local State Callback.vi" Type="VI" URL="../Examples/Simple Local State Callback.vi"/>
-				<Item Name="Simple Local Test.vi" Type="VI" URL="../Examples/Simple Local Test.vi"/>
-			</Item>
+		<Item Name="Test" Type="Folder">
+			<Item Name="Chat Client.lvclass" Type="LVClass" URL="../Examples/Chat Client/Chat Client.lvclass"/>
+			<Item Name="Chat Server.lvclass" Type="LVClass" URL="../Examples/Chat Server/Chat Server.lvclass"/>
 		</Item>
 		<Item Name="Stream-TCP.lvlib" Type="Library" URL="../Stream-TCP/Stream-TCP.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -52,14 +46,13 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
+				<Item Name="Stream.lvlib" Type="Library" URL="/&lt;vilib&gt;/IlluminatedG/lv-stream/Stream.lvlib"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Stream.lvlib" Type="Library" URL="../../lv-stream/stream/Stream.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Chat Client" Type="EXE">
@@ -91,10 +84,10 @@
 				<Property Name="Source[0].itemID" Type="Str">{AFA4709C-0150-4087-B403-9DF5BDCF85C4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/Chat/Chat Client.lvclass/Public/Client Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Examples/Chat/Chat Client.lvclass/Private/Client Main Async.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
@@ -133,13 +126,17 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Chat Server/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{04347DEA-F1F6-422D-A21C-66A7E9852F63}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{57486D64-A476-433C-BBE7-E289C0EA15F0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Examples/Chat/Chat Server.lvclass/Public/Server Main.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Stream-TCP.lvlib/TCP Server.lvclass/Public/Dynamic VIs.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Test/Chat Server.lvclass/Public/Server Main.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Halliburton</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Chat Server</Property>
 				<Property Name="TgtF_internalName" Type="Str">Chat Server</Property>
