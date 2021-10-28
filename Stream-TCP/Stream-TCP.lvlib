@@ -18,7 +18,6 @@
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="URI from Host Port.vi" Type="VI" URL="../URI from Host Port.vi"/>
 	</Item>
-	<Item Name="Name Test.vi" Type="VI" URL="../TCP Server/Name Test.vi"/>
 	<Item Name="TCP Client.lvclass" Type="LVClass" URL="../TCP Client/TCP Client.lvclass"/>
 	<Item Name="TCP Server.lvclass" Type="LVClass" URL="../TCP Server/TCP Server.lvclass"/>
 	<Item Name="TCP Stream.lvclass" Type="LVClass" URL="../TCP Stream/TCP Stream.lvclass"/>
