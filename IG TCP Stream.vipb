@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:18:24" Modified_Date="2022-01-03 02:33:30" Creator="hal_dev" Comments="" ID="9c6077785e3070546ac25a2eac5e7440">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:18:24" Modified_Date="2022-01-09 19:04:04" Creator="hal_dev" Comments="" ID="7b907378fa50230cf912eaf28d3713cf">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_TCP_Stream</Package_File_Name>
-    <Library_Version>0.1.0.23</Library_Version>
+    <Library_Version>0.1.0.25</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\build\vip</Library_Output_Folder>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>illuminatedg_lib_ig_stream_base &gt;= 1.0.0.20</External_Dependencies>
-      <Direct_Dependencies>illuminatedg_lib_ig_stream_base-1.0.0.20</Direct_Dependencies>
+      <External_Dependencies>illuminatedg_lib_ig_stream_base &gt;= 1.1.0.21</External_Dependencies>
+      <Direct_Dependencies>illuminatedg_lib_ig_stream_base-1.1.0.21</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -41,7 +41,9 @@ An example of a multi-client chat application is available in this package.</Des
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-stream-tcp</URL>
-      <Release_Notes>- Refactor to use new Endpoint:Prepare Stream functionality in support of new data sniffing mechanism.</Release_Notes>
+      <Release_Notes>- Refactor to use new Endpoint:Prepare Stream functionality in support of new data sniffing mechanism.
+- Raise error instead of silently ignoring Reads when a TCP ref has gone invalid.
+- Eliminate race condition in server registration of new clients</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -380,20 +382,6 @@ An example of a multi-client chat application is available in this package.</Des
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Write Data.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>3</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Stream-TCP\TCP Stream\Write Data.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Is Connected.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -419,7 +407,7 @@ An example of a multi-client chat application is available in this package.</Des
         <Path>Stream-TCP\TCP Stream\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>05D61C69C7C64B7E96712212159D1048</GUID>
+      <GUID>48B1AE9828851DE9BC80D3606466DC19</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
