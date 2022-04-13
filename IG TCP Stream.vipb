@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:18:24" Modified_Date="2022-04-07 11:58:01" Creator="hal_dev" Comments="" ID="7c8fb8c86dc273259303b928c433e980">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:18:24" Modified_Date="2022-04-13 13:21:37" Creator="hal_dev" Comments="" ID="d765d9562fa117398bd110bfa0c1a2f1">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_TCP_Stream</Package_File_Name>
-    <Library_Version>0.1.0.29</Library_Version>
+    <Library_Version>0.1.0.30</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\build\vip</Library_Output_Folder>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>illuminatedg_lib_ig_stream_base &gt;= 1.1.0.31</External_Dependencies>
-      <Direct_Dependencies>illuminatedg_lib_ig_stream_base-1.1.0.31</Direct_Dependencies>
+      <External_Dependencies>illuminatedg_lib_ig_stream_base &gt;= 1.1.0.32</External_Dependencies>
+      <Direct_Dependencies>illuminatedg_lib_ig_stream_base-1.1.0.32</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -405,7 +405,7 @@ An example of a multi-client chat application is available in this package.</Des
         <Path>Stream-TCP\TCP Stream\Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E8DAF9CB53432060E76EDE7719FAAF2F</GUID>
+      <GUID>38EA1A311D1E33D0D8F0E617AF1E401B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
