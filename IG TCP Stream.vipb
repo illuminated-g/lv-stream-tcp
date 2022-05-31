@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:18:24" Modified_Date="2022-04-30 13:25:11" Creator="hal_dev" Comments="" ID="a2018e62cd42224c3fa2f1ecc4a5d44a">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:18:24" Modified_Date="2022-05-31 16:04:38" Creator="hal_dev" Comments="" ID="aaf40c3d765a55678a38078f79a51f21">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_TCP_Stream</Package_File_Name>
-    <Library_Version>0.1.0.32</Library_Version>
+    <Library_Version>0.1.0.35</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\build\vip</Library_Output_Folder>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>illuminatedg_lib_ig_stream_base &gt;= 1.1.0.32</External_Dependencies>
-      <Direct_Dependencies>illuminatedg_lib_ig_stream_base-1.1.0.32</Direct_Dependencies>
+      <External_Dependencies>illuminatedg_lib_ig_stream_base &gt;= 1.1.0.34</External_Dependencies>
+      <Direct_Dependencies>illuminatedg_lib_ig_stream_base-1.1.0.34</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -42,7 +42,11 @@ An example of a multi-client chat application is available in this package.</Des
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-stream-tcp</URL>
       <Release_Notes>- Fix chat example to match stream refactors
-- Wrap TLS calls to be able to implement HTTPS and other encrypted communications</Release_Notes>
+- Wrap TLS calls to be able to implement HTTPS and other encrypted communications
+- Fix reentrancy for blocking VIs for parallel connections
+
+Known Issue:
+- Trying to close a connection/stream from within a connection callback can cause a timeout and invalid state that causes a connection to persist longer than desired.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -434,7 +438,7 @@ An example of a multi-client chat application is available in this package.</Des
         <Path>Stream-TCP\TCP Stream\Start TLS.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3BF0A26A38D6A17E9955D6E165988CE2</GUID>
+      <GUID>CF3DB3B3904989E2BC9DFECD628BC317</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
