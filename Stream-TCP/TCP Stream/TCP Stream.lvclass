@@ -44,13 +44,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Ctor.vi" Type="VI" URL="../Ctor.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)G!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!F%&amp;.U=G6B&lt;3V51V!O&lt;(:M;7)36%.1)&amp;.U=G6B&lt;3ZM&gt;G.M98.T!!Z51V!A5X2S:7&amp;N)'^V&gt;!!!%5!$!!J5;7VF&lt;X6U)'VT!!".!0%!!!!!!!!!!AR4&gt;(*F97UO&lt;(:M;7))47^E:3ZD&gt;'Q!,U!7!!1$5G&amp;X#%*V:G:F=G6E#%RJ&lt;G65:8*N"UVF=X.B:W5!"%VP:'5!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!91$R!!!!!!!!!!)15X2S:7&amp;N,62$5#ZM&gt;GRJ9B*$&lt;'FF&lt;H1A1W^N&lt;7&amp;O:#ZD&gt;'Q!.5!7!!1(1W^O&lt;G6D&gt;!6$&lt;'^T:1B4;(6U:'^X&lt;AF3:7.P&lt;GZF9X1!!!&gt;$&lt;WVN97ZE!&amp;9!]1!!!!!!!!!#%&amp;.U=G6B&lt;3V51V!O&lt;(:M;7)91WRJ:7ZU)%.P&lt;7VB&lt;G1A586F&gt;75O9X2M!#2!=!!3!!%!#22$&lt;'FF&lt;H1A1W^N&lt;7&amp;O:#"2&gt;76V:1!!&amp;E"Q!!5/6%.1)%.P&lt;GZF9X2J&lt;WY!!&amp;1!]!!-!!-!"!!%!!5!"A!%!!=!"!!)!!1!#A!,!A!!?!!!$1A!!!!!!!!!!!!!#1!!!"!!!!!!!!!!%!!!!!!!!!!)!!!!!!!!!"!!!!!1!!!!!!%!$!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(:!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!F%&amp;.U=G6B&lt;3V51V!O&lt;(:M;7)36%.1)&amp;.U=G6B&lt;3ZM&gt;G.M98.T!!Z51V!A5X2S:7&amp;N)'^V&gt;!!!%5!$!!J5;7VF&lt;X6U)'VT!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!'%!]1!!!!!!!!!#%&amp;.U=G6B&lt;3V51V!O&lt;(:M;7)31WRJ:7ZU)%.P&lt;7VB&lt;G1O9X2M!$6!&amp;A!%"U.P&lt;GZF9X1&amp;1WRP=W5)5WBV&gt;'2P&gt;WY*5G6D&lt;WZO:7.U!!!(1W^N&lt;7&amp;O:!"7!0%!!!!!!!!!!B"4&gt;(*F97UN6%.1,GRW&lt;'FC'%.M;76O&gt;#"$&lt;WVN97ZE)&amp;&amp;V:86F,G.U&lt;!!E1(!!%A!"!!A51WRJ:7ZU)%.P&lt;7VB&lt;G1A586F&gt;75!!":!=!!&amp;$F2$5#"$&lt;WZO:7.U;7^O!!"5!0!!$!!$!!1!"!!&amp;!!9!"!!%!!1!"Q!%!!E!#A)!!(A!!!U)!!!!!!!!!!!!!!E!!!!1!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!1!!!!%!!!!!!"!!M!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">4</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
 		</Item>
 	</Item>
 	<Item Name="Private" Type="Folder">
@@ -65,15 +65,6 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 			</Item>
-		</Item>
-		<Item Name="Convert TCP Mode.vi" Type="VI" URL="../Convert TCP Mode.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$A!!!!"!!%!!!!-U!7!!1)5X2B&lt;G2B=G1)1H6G:G6S:71%1V*-2AF*&lt;7VF:'FB&gt;'5!!!B51V!A47^E:1!!41$R!!!!!!!!!!)-5X2S:7&amp;N,GRW&lt;'FC#%VP:'5O9X2M!#^!&amp;A!%!V*B&gt;QB#&gt;7:G:8*F:!B-;7ZF6'6S&lt;1&gt;.:8.T97&gt;F!!2.&lt;W2F!!"5!0!!$!!!!!!!!1!!!!!!!!!!!!!!!!!!!!)!!!)!!(A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!!!!!!!!"!!-!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1350574592</Property>
 		</Item>
 		<Item Name="Reconnect.vi" Type="VI" URL="../Reconnect.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;%!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!F%&amp;.U=G6B&lt;3V51V!O&lt;(:M;7)36%.1)&amp;.U=G6B&lt;3ZM&gt;G.M98.T!!Z51V!A5X2S:7&amp;N)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!]1(!!(A!!*2"4&gt;(*F97UN6%.1,GRW&lt;'FC%F2$5#"4&gt;(*F97UO&lt;(:D&lt;'&amp;T=Q!.6%.1)&amp;.U=G6B&lt;3"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
