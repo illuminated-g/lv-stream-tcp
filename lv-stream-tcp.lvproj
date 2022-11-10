@@ -18,6 +18,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Palettes" Type="Folder">
+			<Item Name="TCP Client Class.ctl" Type="VI" URL="../Palettes/TCP Client Class.ctl"/>
+			<Item Name="TCP Server Class.ctl" Type="VI" URL="../Palettes/TCP Server Class.ctl"/>
+			<Item Name="TCP Stream Class.ctl" Type="VI" URL="../Palettes/TCP Stream Class.ctl"/>
+		</Item>
 		<Item Name="Stream-TCP.lvlib" Type="Library" URL="../Stream-TCP/Stream-TCP.lvlib"/>
 		<Item Name="TCP Tests.lvlib" Type="Library" URL="../Test/TCP Tests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
