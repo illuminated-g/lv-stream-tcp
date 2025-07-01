@@ -2,18 +2,20 @@
   "Info":{
     "Name":"git:lv-stream-tcp",
     "Type":"git",
-    "Source":"git@github.com:illuminated-g/lv-stream-tcp.git",
+    "Host":"git@github.com:illuminated-g/lv-stream-tcp.git",
+    "Path":"",
     "Branch":"master",
-    "Version":"331cb7112b38c9c97e2ffbe941b3dde2d8e0e695"
+    "Version":"7423d03b54cda5d619f9246b217ddef96e713a6d"
   },
   "Dependencies":[
     {
       "Info":{
         "Name":"git:lv-stream",
         "Type":"git",
-        "Source":"git@github.com:illuminated-g/lv-stream.git",
+        "Host":"git@github.com:illuminated-g/lv-stream.git",
+        "Path":"",
         "Branch":"master",
-        "Version":"192b98224d666d8de75f24b825a2d27940fee478"
+        "Version":"505e3d9001019fec0b4f607a60a1c0e134c89fe5"
       },
       "Path":"..\\lv-stream"
     }
