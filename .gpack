@@ -1,0 +1,21 @@
+{
+  "Info":{
+    "Name":"git:lv-stream-tcp",
+    "Type":"git",
+    "Source":"git@github.com:illuminated-g/lv-stream-tcp.git",
+    "Branch":"master",
+    "Version":"331cb7112b38c9c97e2ffbe941b3dde2d8e0e695"
+  },
+  "Dependencies":[
+    {
+      "Info":{
+        "Name":"git:lv-stream",
+        "Type":"git",
+        "Source":"git@github.com:illuminated-g/lv-stream.git",
+        "Branch":"master",
+        "Version":"192b98224d666d8de75f24b825a2d27940fee478"
+      },
+      "Path":"..\\lv-stream"
+    }
+  ]
+}
